@@ -7,7 +7,7 @@ export default function Hero() {
                 className="hero absolute h-100 top-0 left-0 pl-0 bg-gradient-to-r from-[#151520] to-[rgba(21, 21, 21, 0.00)] "
                 style={{
                     backgroundImage:
-                        "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
+                        "url(/Singapore.jpg)",
                 }}
             >
                 <div className="hero-overlay"></div>
