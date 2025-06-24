@@ -6,7 +6,7 @@ import { GrayStar } from "./logo";
 
 const Reviews = () => {
   return (
-    <div className="py-[120px] bg-white border ">
+    <div className="py-[120px] bg-white ">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-[40px] font-bold text-center text-gray-900 mb-4">
           Our Customers Reviews
