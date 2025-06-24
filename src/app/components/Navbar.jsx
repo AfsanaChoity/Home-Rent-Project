@@ -1,9 +1,10 @@
 import React from 'react'
+import { NavIcon } from "./logo";
 
 export default function Navbar() {
     return (
         <div className=''>
-            <div className="navbar absolute   z-10 shadow-2xl backdrop-blur-sm bg-white/20">
+            <div className="navbar absolute z-10 shadow-2xl backdrop-blur-sm bg-white/20 max-w[1440px] min-w-full md:h-[100px]">
                 <div className="navbar-start ">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -20,15 +21,12 @@ export default function Navbar() {
                         </ul>
                     </div>
                     {/* logo */}
-                    <a className="">
-                        <div className="relative w-[30px] h-[30px] md:ml-20">
-
-                            <div className="absolute bottom-0 left-0 w-[30px] h-[19.5px] rounded bg-gradient-to-r from-blue-500 via-cyan-400 to-teal-400"></div>
-
-
-                            <div className="absolute top-0 left-[7px] w-[16.5px] h-[22.5] rounded bg-gradient-to-br from-green-300 via-blue-500 to-purple-600 shadow-md"></div>
-                        </div>
-
+                   
+                    <a
+                        href="#"
+                        className="md:ml-20"
+                    >
+                        <NavIcon />
                     </a>
                 </div>
                 <div className="navbar-center hidden lg:flex ">
@@ -41,7 +39,7 @@ export default function Navbar() {
                     </ul>
                 </div>
                 <div className="navbar-end mr-5 md:mr-20">
-                    <a className="btn border-none bg-purple-600 text-white font-medium px-5 py-2 rounded-xs transition-all duration-300 ease-in-out hover:bg-purple-700 hover:scale-105 shadow-md hover:shadow-lg">Sign In</a>
+                    <a className="btn border-none bg-purple-600 text-white font-medium px-[24px] py-[9px] rounded-xs transition-all duration-300 ease-in-out hover:bg-purple-700 hover:scale-105 shadow-md hover:shadow-lg">Sign In</a>
                 </div>
             </div>
         </div>
