@@ -31,7 +31,7 @@ export const properties = [
   },
 ];
 
-export const recentProperties = [
+export const addedProperties = [
   {
     id: 4,
     title: "Mountain Retreat",
@@ -44,7 +44,7 @@ export const recentProperties = [
   },
   {
     id: 5,
-    title: "Sunset View Apartment",
+    title: "Sunset View Apart...",
     location: "415 Broadway, New York, NY 10013",
     price: "$780,000",
     beds: 3,
