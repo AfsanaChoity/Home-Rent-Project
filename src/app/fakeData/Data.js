@@ -12,9 +12,9 @@ export const properties = [
   {
     id: 2,
     title: "Eco Loft",
-    location: "12th Avenue, Chelsea, Manhattan, New York, NY",
+    location: "12th Avenue, Chelsea, Manhattan, New Yo...",
     price: "$100,000",
-    beds: 2,
+    beds: 3,
     baths: 2,
     sqft: "1200 sq ft",
     image: "/images/image2.png",
@@ -24,9 +24,9 @@ export const properties = [
     title: "Luxury Condo",
     location: "415 Broadway, New York, NY 10013",
     price: "$780,000",
-    beds: 2,
+    beds: 3,
     baths: 2,
-    sqft: "1300 sq ft",
+    sqft: "1500 sq ft",
     image: "/images/image3.png",
   },
 ];
