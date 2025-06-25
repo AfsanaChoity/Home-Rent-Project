@@ -64,6 +64,50 @@ export const addedProperties = [
   },
 ];
 
+export const browseProperties = [
+  
+  {
+    id: 7,
+    title: "Sunset View Apart...",
+    location: "415 Broadway, New York, NY 10013",
+    price: "$780,000",
+    beds: 3,
+    baths: 2,
+    sqft: "1900 sq ft",
+    image: "/images/image5.png",
+  },
+  {
+    id: 8,
+    title: "Sunset View Apart...",
+    location: "415 Broadway, New York, NY 10013",
+    price: "$780,000",
+    beds: 3,
+    baths: 2,
+    sqft: "1900 sq ft",
+    image: "/images/image5.png",
+  },
+  {
+    id: 9,
+    title: "Sunset View Apart...",
+    location: "415 Broadway, New York, NY 10013",
+    price: "$780,000",
+    beds: 3,
+    baths: 2,
+    sqft: "1900 sq ft",
+    image: "/images/image5.png",
+  },
+  {
+    id: 10,
+    title: "Country Farmhouse",
+    location: "235 Ocean Drive, Miami Beach, FL 33139",
+    price: "$1,350,000",
+    beds: 5,
+    baths: 3,
+    sqft: "3200 sq ft",
+    image: "/images/image6.png",
+  },
+];
+
 export const testimonials = [
   {
     id: 1,
@@ -116,18 +160,18 @@ export const filters = [
   },
   {
     label: "Bedrooms",
-    items: ["1", "2", "3", "4+"],
+    items: ["1", "2", "3","4", "4+"],
   },
   {
     label: "Bathrooms",
-    items: ["1", "2", "3", "4+"],
+    items: ["1", "2", "3", "3+"],
   },
   {
     label: "Size (Square Footage)",
-    items: ["< 1000", "1000-2000", "2000-3000", "3000+"],
+    items: ["< 1000", "1000-2000", "2000-3000", "3000-4000", "4000+"],
   },
   {
     label: "Sort By",
-    items: ["Price: Low to High", "Price: High to Low", "Newest Listings"],
+    items: ["Price: Low to High", "Price: High to Low"],
   },
 ];

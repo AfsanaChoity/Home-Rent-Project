@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavIcon } from "./logo";
+import Link from "next/link";
 
 export default function Navbar() {
     return (
@@ -13,8 +14,8 @@ export default function Navbar() {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-black font-medium">
-                            <li><a className='hover:border hover:border-purple-600 hover:bg-purple-50 hover:text-purple-600  duration-300 '>Home</a></li>
-                            <li><a className='hover:border hover:border-purple-600 hover:bg-purple-50 hover:text-purple-600  duration-300 '>Browse Properties</a></li>
+                            <Link href="/" className='hover:border hover:border-purple-600 hover:bg-purple-50 hover:text-purple-600  duration-300 text-xs pl-[10px] py-1 rounded'>Home</Link>
+                            <Link href="/browseproperties" className='hover:border hover:border-purple-600 hover:bg-purple-50 hover:text-purple-600  duration-300 text-xs pl-[10px] py-1 rounded'>Browse Properties</Link>
                             <li><a className='hover:border hover:border-purple-600 hover:bg-purple-50 hover:text-purple-600  duration-300 '>About Us</a></li>
                             <li><a className='hover:border hover:border-purple-600 hover:bg-purple-50 hover:text-purple-600  duration-300 '>Rental Guides</a></li>
                             <li><a className='hover:border hover:border-purple-600 hover:bg-purple-50 hover:text-purple-600  duration-300 '>Contact Us</a></li>
@@ -22,17 +23,17 @@ export default function Navbar() {
                     </div>
                     {/* logo */}
                    
-                    <a
-                        href="#"
+                    <Link
+                        href="/"
                         className="md:ml-20"
                     >
                         <NavIcon />
-                    </a>
+                    </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex ">
                     <ul className="menu menu-horizontal px-1 lg:gap-10 text-black font-medium">
-                        <li><a className='hover:border hover:border-purple-600 hover:bg-purple-50 hover:text-purple-600  duration-300 rounded-xs'>Home</a></li>
-                        <li><a className='hover:border hover:border-purple-600 hover:bg-purple-50 hover:text-purple-600  duration-300 rounded-xs'>Browse Properties</a></li>
+                        <Link href="/" className='hover:border hover:border-purple-600 hover:bg-purple-50 hover:text-purple-600  duration-300 px-4 py-[6px] rounded-xs'>Home</Link>
+                        <Link href="/browseproperties" className='hover:border hover:border-purple-600 hover:bg-purple-50 hover:text-purple-600  duration-300 px-4 py-[6px] rounded-xs'>Browse Properties</Link>
                         <li><a className='hover:border hover:border-purple-600 hover:bg-purple-50 hover:text-purple-600  duration-300 rounded-xs'>About Us</a></li>
                         <li><a className='hover:border hover:border-purple-600 hover:bg-purple-50 hover:text-purple-600  duration-300 rounded-xs'>Rental Guides</a></li>
                         <li><a className='hover:border hover:border-purple-600 hover:bg-purple-50 hover:text-purple-600  duration-300 rounded-xs'>Contact Us</a></li>

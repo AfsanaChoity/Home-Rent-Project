@@ -125,7 +125,6 @@ export default function Form() {
             placeholder="Enter your Move-in Date"
             type="date"
           />
-          {/* </div> */}
           <Textarea
             label="Additional Comments/Preferences"
             placeholder="Please share any additional details or preferences"
